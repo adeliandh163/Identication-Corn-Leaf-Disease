@@ -3,12 +3,11 @@ This repository contains a research project on corn leaf disease identification 
 
 ---
 
-## Overview
 Corn is one of the most widely cultivated crops, but its productivity can be reduced by various leaf diseases. Early detection is crucial to prevent production loss. This project applies Gray Level Co-occurrence Matrix (GLCM) for texture feature extraction and K-Nearest Neighbors (K-NN) for classification of corn leaf diseases.
 
 ---
 
-## Methods
+Methods
 1. Dataset
    - Training data: 1200 images (from Kaggle).
    - Testing data: 280 images (collected directly in Wringinagung, Jember, East Java using iPhone 13 camera).
@@ -33,7 +32,7 @@ Corn is one of the most widely cultivated crops, but its productivity can be red
 
 ---
 
-## 📊 Results
+Results
 - Modified GLCM + K-NN achieved better performance compared to MATLAB built-in functions.
 - Best accuracy: 62.50% (k = 1)
 - Worst accuracy: 43.57% (k = 16)
@@ -41,7 +40,7 @@ Corn is one of the most widely cultivated crops, but its productivity can be red
 
 ---
 
-## GUI Example
+GUI Example
 The GUI provides buttons to:
 - Upload corn leaf images
 - Perform training and testing
@@ -49,14 +48,14 @@ The GUI provides buttons to:
 
 ---
 
-## Tech Stack
+Tech Stack
 - MATLAB (image preprocessing, feature extraction, classification)
 - Image dataset (Kaggle + field collection)
 - Basic GUI implementation in MATLAB
 
 ---
 
-## Author
+Author
 Adelia Indah Wahyuni  
  
 
