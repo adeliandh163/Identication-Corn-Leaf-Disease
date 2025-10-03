@@ -3,13 +3,13 @@ This repository contains a research project on corn leaf disease identification 
 
 ---
 
-## 📌 Overview
-Corn is one of the most widely cultivated crops, but its productivity can be reduced by various leaf diseases. Early detection is crucial to prevent production loss. This project applies **Gray Level Co-occurrence Matrix (GLCM)** for texture feature extraction and **K-Nearest Neighbors (K-NN)** for classification of corn leaf diseases.
+## Overview
+Corn is one of the most widely cultivated crops, but its productivity can be reduced by various leaf diseases. Early detection is crucial to prevent production loss. This project applies Gray Level Co-occurrence Matrix (GLCM) for texture feature extraction and K-Nearest Neighbors (K-NN) for classification of corn leaf diseases.
 
 ---
 
-## 🛠 Methods
-1. **Dataset**
+## Methods
+1. Dataset
    - Training data: 1200 images (from Kaggle).
    - Testing data: 280 images (collected directly in Wringinagung, Jember, East Java using iPhone 13 camera).
    - 4 disease classes:
@@ -18,16 +18,16 @@ Corn is one of the most widely cultivated crops, but its productivity can be red
      - Leaf Rust
      - Gray Leaf Spot
 
-2. **Preprocessing**
+2. Preprocessing
    - Cropping (manual)
    - Resizing (450 × 450 px)
    - Grayscaling (RGB → grayscale)
 
-3. **Feature Extraction (GLCM)**
+3. Feature Extraction (GLCM)
    - Calculated parameters: Contrast, Correlation, Homogeneity, Energy
    - Angles: 0°, 45°, 90°, and 135°
 
-4. **Classification (K-NN)**
+4. Classification (K-NN)
    - Euclidean Distance used as distance metric
    - Various values of *k* tested (1–16)
 
@@ -35,13 +35,13 @@ Corn is one of the most widely cultivated crops, but its productivity can be red
 
 ## 📊 Results
 - Modified GLCM + K-NN achieved better performance compared to MATLAB built-in functions.
-- Best accuracy: **62.50% (k = 1)**
-- Worst accuracy: **43.57% (k = 16)**
-- A simple **Graphical User Interface (GUI)** was implemented to allow users to classify new images easily.
+- Best accuracy: 62.50% (k = 1)
+- Worst accuracy: 43.57% (k = 16)
+- A simple Graphical User Interface (GUI) was implemented to allow users to classify new images easily.
 
 ---
 
-## 📷 GUI Example
+## GUI Example
 The GUI provides buttons to:
 - Upload corn leaf images
 - Perform training and testing
@@ -49,17 +49,16 @@ The GUI provides buttons to:
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 - MATLAB (image preprocessing, feature extraction, classification)
 - Image dataset (Kaggle + field collection)
 - Basic GUI implementation in MATLAB
 
 ---
 
-## 📌 Author
-**Adelia Indah Wahyuni**  
-Undergraduate Thesis (2025), University of Jember  
-Program: Physics (Electronics & Instrumentation)  
+## Author
+Adelia Indah Wahyuni  
+ 
 
 ---
 
